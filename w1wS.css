@@ -1,0 +1,72 @@
+body {
+	color: #F8F8FF;
+	font-size: 1em;
+	font-family: 'PlayFair Display', serif;
+}
+
+h1 {
+	color: white;
+} /*Property/value..property is color, value is red */
+.masthead-heading,
+.masthead-intro, 
+.content-footer {
+	text-align: center;
+}
+.introduction-class,
+.history-class,
+.work-class,
+.content-footer {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+.masthead{
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/9/92/Kcsky.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	padding: 10em 0;
+	border: solid .4em #000000
+} /*first number, 6em= padding top/bottom, 0 represents left and right*/
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: 'PlayFair Display', serif;
+	font-size: 2em;
+	font-weight: light;
+	font-color: black;
+
+}
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: 'PlayFair Display', serif;
+	font-size: 4em;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.introduction > p,
+.history > p,
+.work > p,
+.content-footer > p {
+	font-weight: 300;
+}
+
+.pics > li {
+	display: inline-block;
+}
+.social > li {
+	display: inline-block;
+}
+.content-footer > p {
+	color: gray;
+}
